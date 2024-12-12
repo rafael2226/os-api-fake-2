@@ -1,0 +1,215 @@
+{
+ "servicos": [
+        {
+            "id": 1,
+            "nomeServico": "Manutenção de Telhado",
+            "descricaoServico": "Inspeção e reparo de telhado",
+            "valorServicoEstimado": 1500.00,
+            "custoOperacional": 500.00,
+            "percentualLucro": 20.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "metro quadrado"
+        },
+        {
+            "id": 2,
+            "nomeServico": "Limpeza de Piscina",
+            "descricaoServico": "Limpeza semanal e manutenção",
+            "valorServicoEstimado": 200.00,
+            "custoOperacional": 50.00,
+            "percentualLucro": 15.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "unidade"
+        },
+        {
+            "id": 3,
+            "nomeServico": "Instalação de Ar Condicionado",
+            "descricaoServico": "Instalação e configuração de sistema de ar condicionado",
+            "valorServicoEstimado": 1200.00,
+            "custoOperacional": 400.00,
+            "percentualLucro": 25.00,
+            "tipoServico": "COMERCIAL",
+            "unidadeMedidaServico": "mês"
+        },
+        {
+            "id": 4,
+            "nomeServico": "Reparação de Portão Eletrônico",
+            "descricaoServico": "Reparação de sistema de portão eletrônico",
+            "valorServicoEstimado": 800.00,
+            "custoOperacional": 300.00,
+            "percentualLucro": 18.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "hora"
+        },
+        {
+            "id": 5,
+            "nomeServico": "Pintura de Parede",
+            "descricaoServico": "Pintura interna ou externa de paredes",
+            "valorServicoEstimado": 1000.00,
+            "custoOperacional": 350.00,
+            "percentualLucro": 22.00,
+            "tipoServico": "RESIDENCIAL",
+            "unidadeMedidaServico": "dia"
+        }
+    ],
+    "ordensServico": [
+        {
+            "id": 1,
+            "status": "EM_ANDAMENTO",
+            "dataAbertura": "2024-11-01T10:00:00",
+            "prazoConclusao": "2024-11-05T18:00:00",
+            "observacoes": "Reparação urgente no telhado",
+            "valorTotal": 1800.00
+        },
+        {
+            "id": 2,
+            "status": "CONCLUIDO",
+            "dataAbertura": "2024-10-28T09:30:00",
+            "prazoConclusao": "2024-10-30T17:00:00",
+            "observacoes": "Instalação de ar condicionado concluída",
+            "valorTotal": 1500.00
+        },
+        {
+            "id": 3,
+            "status": "EM_ATRASO",
+            "dataAbertura": "2024-10-20T14:00:00",
+            "prazoConclusao": "2024-10-22T16:00:00",
+            "observacoes": "Limpeza de piscina atrasada devido ao mau tempo",
+            "valorTotal": 250.00
+        },
+        {
+            "id": 4,
+            "status": "EM_ANDAMENTO",
+            "dataAbertura": "2024-11-02T11:00:00",
+            "prazoConclusao": "2024-11-06T15:00:00",
+            "observacoes": "Pintura de parede interna",
+            "valorTotal": 1200.00
+        },
+        {
+            "id": 5,
+            "status": "CONCLUIDO",
+            "dataAbertura": "2024-10-25T08:45:00",
+            "prazoConclusao": "2024-10-28T12:30:00",
+            "observacoes": "Instalação do portão eletrônico completada",
+            "valorTotal": 1000.00
+        }
+    ],
+    "itensOrdemServico": [
+        {
+            "id": 1,
+            "duracaoEstimado": 5.0,
+            "descontoServico": 100.00,
+            "custoExtra": 50.00,
+            "valorServicoItem": 1800.00,
+            "quantidade": 1,
+            "prioridade": "ALTA",
+            "ordemServicoId": 1,
+            "servicoId": 1
+        },
+        {
+            "id": 2,
+            "duracaoEstimado": 3.0,
+            "descontoServico": 50.00,
+            "custoExtra": 20.00,
+            "valorServicoItem": 1500.00,
+            "quantidade": 1,
+            "prioridade": "MÉDIA",
+            "ordemServicoId": 2,
+            "servicoId": 3
+        },
+        {
+            "id": 3,
+            "duracaoEstimado": 1.0,
+            "descontoServico": 20.00,
+            "custoExtra": 10.00,
+            "valorServicoItem": 250.00,
+            "quantidade": 1,
+            "prioridade": "BAIXA",
+            "ordemServicoId": 3,
+            "servicoId": 2
+        },
+        {
+            "id": 4,
+            "duracaoEstimado": 4.0,
+            "descontoServico": 150.00,
+            "custoExtra": 40.00,
+            "valorServicoItem": 1200.00,
+            "quantidade": 2,
+            "prioridade": "ALTA",
+            "ordemServicoId": 4,
+            "servicoId": 5
+        },
+        {
+            "id": 5,
+            "duracaoEstimado": 6.0,
+            "descontoServico": 100.00,
+            "custoExtra": 30.00,
+            "valorServicoItem": 1000.00,
+            "quantidade": 1,
+            "prioridade": "MÉDIA",
+            "ordemServicoId": 5,
+            "servicoId": 4
+        }
+    ],
+    "faturamentos": [
+        {
+            "id": 1,
+            "valorFatura": 1800.00,
+            "dataRegistro": "2024-11-01T10:30:00",
+            "formaPagamento": "CARTÃO_CREDITO",
+            "statusPagamento": "PAGO",
+            "dataVencimento": "2024-11-10T18:00:00",
+            "statusFatura": "PAGA",
+            "descricao": "Fatura referente ao reparo do telhado",
+            "dataAtualizacao": "2024-11-02T15:00:00",
+            "idOrdemServico" : 1
+        },
+        {
+            "id": 2,
+            "valorFatura": 1500.00,
+            "dataRegistro": "2024-10-28T12:00:00",
+            "formaPagamento": "BOLETO",
+            "statusPagamento": "PENDENTE",
+            "dataVencimento": "2024-11-05T17:00:00",
+            "statusFatura": "PENDENTE",
+            "descricao": "Fatura referente à instalação de ar condicionado",
+            "dataAtualizacao": "2024-10-29T13:30:00",
+            "idOrdemServico" : 2
+        },
+        {
+            "id": 3,
+            "valorFatura": 250.00,
+            "dataRegistro": "2024-10-20T14:30:00",
+            "formaPagamento": "DINHEIRO",
+            "statusPagamento": "PAGO",
+            "dataVencimento": "2024-10-23T12:00:00",
+            "statusFatura": "PAGA",
+            "descricao": "Fatura referente à limpeza da piscina",
+            "dataAtualizacao": "2024-10-21T11:00:00",
+            "idOrdemServico" : 3
+        },
+        {
+            "id": 4,
+            "valorFatura": 1200.00,
+            "dataRegistro": "2024-11-02T11:30:00",
+            "formaPagamento": "TRANSFERENCIA_BANCARIA",
+            "statusPagamento": "PENDENTE",
+            "dataVencimento": "2024-11-09T15:00:00",
+            "statusFatura": "PENDENTE",
+            "descricao": "Fatura referente à pintura de parede interna",
+            "dataAtualizacao": "2024-11-03T10:15:00",
+            "idOrdemServico" : 4
+        },
+        {
+            "id": 5,
+            "valorFatura": 1000.00,
+            "dataRegistro": "2024-10-25T08:00:00",
+            "formaPagamento": "CARTÃO_DEBITO",
+            "statusPagamento": "PAGO",
+            "dataVencimento": "2024-10-28T10:00:00",
+            "statusFatura": "PAGA",
+            "descricao": "Fatura referente à instalação do portão eletrônico",
+            "dataAtualizacao": "2024-10-26T09:30:00",
+            "idOrdemServico" : 5
+        }
+    ]
+}
