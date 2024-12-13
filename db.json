@@ -55,40 +55,40 @@
         {
             "id": 1,
             "status": "Em Andamento",
-            "dataAbertura": "2024-11-01T10:00:00",
-            "prazoConclusao": "2024-11-05T18:00:00",
+            "dataAbertura": "01-11-2024",
+            "prazoConclusao": "2024-11-05",
             "observacoes": "Reparação urgente no telhado",
             "valorTotal": 1800.00
         },
         {
             "id": 2,
             "status": "Concluído",
-            "dataAbertura": "2024-10-28T09:30:00",
-            "prazoConclusao": "2024-10-30T17:00:00",
+            "dataAbertura": "28-10-2024",
+            "prazoConclusao": "30-10-2024",
             "observacoes": "Instalação de ar condicionado concluída",
             "valorTotal": 1500.00
         },
         {
             "id": 3,
             "status": "Em Atraso",
-            "dataAbertura": "2024-10-20T14:00:00",
-            "prazoConclusao": "2024-10-22T16:00:00",
+            "dataAbertura": "20-10-2024",
+            "prazoConclusao": "22-10-2024",
             "observacoes": "Limpeza de piscina atrasada devido ao mau tempo",
             "valorTotal": 250.00
         },
         {
             "id": 4,
             "status": "Em Andamento",
-            "dataAbertura": "2024-11-02T11:00:00",
-            "prazoConclusao": "2024-11-06T15:00:00",
+            "dataAbertura": "02-11-2024",
+            "prazoConclusao": "06-11-2024",
             "observacoes": "Pintura de parede interna",
             "valorTotal": 1200.00
         },
         {
             "id": 5,
             "status": "Concluído",
-            "dataAbertura": "2024-10-25T08:45:00",
-            "prazoConclusao": "2024-10-28T12:30:00",
+            "dataAbertura": "25-10-2024",
+            "prazoConclusao": "28-10-2024",
             "observacoes": "Instalação do portão eletrônico completada",
             "valorTotal": 1000.00
         }
@@ -101,7 +101,7 @@
             "custoExtra": 50.00,
             "valorServicoItem": 1800.00,
             "quantidade": 1,
-            "prioridade": "ALTA",
+            "prioridade": "Alta",
             "ordemServicoId": 1,
             "servicoId": 1
         },
@@ -112,7 +112,7 @@
             "custoExtra": 20.00,
             "valorServicoItem": 1500.00,
             "quantidade": 1,
-            "prioridade": "MÉDIA",
+            "prioridade": "Média",
             "ordemServicoId": 2,
             "servicoId": 3
         },
@@ -123,7 +123,7 @@
             "custoExtra": 10.00,
             "valorServicoItem": 250.00,
             "quantidade": 1,
-            "prioridade": "BAIXA",
+            "prioridade": "Baixa",
             "ordemServicoId": 3,
             "servicoId": 2
         },
@@ -134,7 +134,7 @@
             "custoExtra": 40.00,
             "valorServicoItem": 1200.00,
             "quantidade": 2,
-            "prioridade": "ALTA",
+            "prioridade": "Alta",
             "ordemServicoId": 4,
             "servicoId": 5
         },
@@ -145,7 +145,7 @@
             "custoExtra": 30.00,
             "valorServicoItem": 1000.00,
             "quantidade": 1,
-            "prioridade": "MÉDIA",
+            "prioridade": "Média",
             "ordemServicoId": 5,
             "servicoId": 4
         }
@@ -157,7 +157,7 @@
             "dataRegistro": "2024-11-01T10:30:00",
             "formaPagamento": "Cartão de Crédito",
             "statusPagamento": "Pago",
-            "dataVencimento": "2024-11-10T18:00:00",
+            "dataVencimento": "10-11-2024",
             "statusFatura": "Paga",
             "descricao": "Fatura referente ao reparo do telhado",
             "dataAtualizacao": "2024-11-02T15:00:00",
@@ -169,7 +169,7 @@
             "dataRegistro": "2024-10-28T12:00:00",
             "formaPagamento": "Boleto",
             "statusPagamento": "Pendente",
-            "dataVencimento": "2024-11-05T17:00:00",
+            "dataVencimento": "05-11-2024",
             "statusFatura": "Aberta",
             "descricao": "Fatura referente à instalação de ar condicionado",
             "dataAtualizacao": "2024-10-29T13:30:00",
@@ -181,7 +181,7 @@
             "dataRegistro": "2024-10-20T14:30:00",
             "formaPagamento": "Dinheiro",
             "statusPagamento": "Pendente",
-            "dataVencimento": "2024-10-23T12:00:00",
+            "dataVencimento": "23-10-2024",
             "statusFatura": "Cancelada",
             "descricao": "Fatura referente à limpeza da piscina",
             "dataAtualizacao": "2024-10-21T11:00:00",
