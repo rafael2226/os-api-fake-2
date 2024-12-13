@@ -8,7 +8,7 @@
             "custoOperacional": 500.00,
             "percentualLucro": 20.00,
             "tipoServico": "Residencial",
-            "unidadeMedidaServico": "metro quadrado"
+            "unidadeMedidaServico": "M2"
         },
         {
             "id": 2,
