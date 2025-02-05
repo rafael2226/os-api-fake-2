@@ -59,7 +59,7 @@
             "prazoConclusao": "2024-11-05T18:00:00",
             "observacoes": "Reparação urgente no telhado",
             "valorTotal": 1800.00,
-            "usuarioId": 6
+            "usuarioId": 1
         },
         {
             "id": 2,
@@ -68,7 +68,7 @@
             "prazoConclusao": "2024-10-30T17:00:00",
             "observacoes": "Instalação de ar condicionado concluída",
             "valorTotal": 1500.00,
-             "usuarioId": 7
+             "usuarioId": 2
         },
         {
           "id": 3,
