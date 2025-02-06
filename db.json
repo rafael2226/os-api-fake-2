@@ -177,37 +177,37 @@
         {
             "id": 1,
             "valorFatura": 1800.00,
-            "dataRegistro": "2024-11-01T10:30:00",
+            "dataRegistro": "01-11-2024 às 10:30:00",
             "formaPagamento": "Cartão de Crédito",
             "statusPagamento": "Pago",
             "dataVencimento": "10-11-2024",
             "statusFatura": "Paga",
             "descricao": "Fatura referente ao reparo do telhado",
-            "dataAtualizacao": "2024-11-02T15:00:00",
+            "dataAtualizacao": "11-02-2024 às 15:00:00",
             "idOrdemServico" : 1
         },
         {
             "id": 2,
             "valorFatura": 1500.00,
-            "dataRegistro": "2024-10-28T12:00:00",
+            "dataRegistro": "28-10-2024 às 12:00:00",
             "formaPagamento": "Boleto",
             "statusPagamento": "Pendente",
             "dataVencimento": "05-11-2024",
             "statusFatura": "Aberta",
             "descricao": "Fatura referente à instalação de ar condicionado",
-            "dataAtualizacao": "2024-10-29T13:30:00",
+            "dataAtualizacao": "29-10-2024 às 13:30:00",
             "idOrdemServico" : 2
         },
         {
             "id": 3,
             "valorFatura": 250.00,
-            "dataRegistro": "2024-10-20T14:30:00",
+            "dataRegistro": "20-10-2024 às 14:30:00",
             "formaPagamento": "Dinheiro",
             "statusPagamento": "Pendente",
             "dataVencimento": "23-10-2024",
             "statusFatura": "Cancelada",
             "descricao": "Fatura referente à limpeza da piscina",
-            "dataAtualizacao": "2024-10-21T11:00:00",
+            "dataAtualizacao": "21-10-2024 às 11:00:00",
             "idOrdemServico" : 3
         }
      
