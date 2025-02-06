@@ -55,8 +55,8 @@
         {
             "id": 1,
             "status": "EM_ANDAMENTO",
-            "dataAbertura": "2024-11-01T10:00:00",
-            "prazoConclusao": "2024-11-05T18:00:00",
+            "dataAbertura": "11-01-2024",
+            "prazoConclusao": "05-11-2024",
             "observacoes": "Reparação urgente no telhado",
             "valorTotal": 1800.00,
             "usuarioId": 1
@@ -64,8 +64,8 @@
         {
             "id": 2,
             "status": "CONCLUIDO",
-            "dataAbertura": "2024-10-28T09:30:00",
-            "prazoConclusao": "2024-10-30T17:00:00",
+            "dataAbertura": "28-10-2024",
+            "prazoConclusao": "30-10-2024",
             "observacoes": "Instalação de ar condicionado concluída",
             "valorTotal": 1500.00,
              "usuarioId": 2
@@ -73,8 +73,8 @@
         {
           "id": 3,
           "status": "EM_ATRASO",
-          "dataAbertura": "2024-10-20T14:00:00",
-          "prazoConclusao": "2024-10-22T16:00:00",
+          "dataAbertura": "20-10-2024",
+          "prazoConclusao": "22-10-2024",
           "observacoes": "Limpeza de piscina atrasada devido ao mau tempo",
           "valorTotal": 250.0,
           "usuarioId": 1
@@ -82,8 +82,8 @@
         {
           "id": 4,
           "status": "EM_ANDAMENTO",
-          "dataAbertura": "2024-11-02T11:00:00",
-          "prazoConclusao": "2024-11-06T15:00:00",
+          "dataAbertura": "02-11-2024",
+          "prazoConclusao": "06-11-2024",
           "observacoes": "Pintura de parede interna",
           "valorTotal": 1200.0,
           "usuarioId": 3
@@ -91,8 +91,8 @@
         {
           "id": 5,
           "status": "CONCLUIDO",
-          "dataAbertura": "2024-10-25T08:45:00",
-          "prazoConclusao": "2024-10-28T12:30:00",
+          "dataAbertura": "25-10-2024",
+          "prazoConclusao": "25-10-2024",
           "observacoes": "Instalação do portão eletrônico completada",
           "valorTotal": 1000.0,
           "usuarioId": 2
@@ -100,8 +100,8 @@
         {
           "id": 6,
           "status": "EM_ATRASO",
-          "dataAbertura": "2024-10-15T13:00:00",
-          "prazoConclusao": "2024-10-18T16:30:00",
+          "dataAbertura": "15-10-2024",
+          "prazoConclusao": "18-10-2024",
           "observacoes": "Atraso na instalação de câmeras de segurança",
           "valorTotal": 1800.0,
           "usuarioId": 4
@@ -109,8 +109,8 @@
         {
           "id": 7,
           "status": "CANCELADO",
-          "dataAbertura": "2024-11-05T14:00:00",
-          "prazoConclusao": "2024-11-07T16:00:00",
+          "dataAbertura": "05-11-2024",
+          "prazoConclusao": "07-11-2024",
           "observacoes": "Serviço de manutenção no jardim completado",
           "valorTotal": 500.0,
           "usuarioId": 5
